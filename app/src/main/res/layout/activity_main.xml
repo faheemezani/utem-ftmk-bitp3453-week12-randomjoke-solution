@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Type: " />
+
+    <TextView
+        android:id="@+id/tv_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Joke: " />
+
+    <TextView
+        android:id="@+id/tv_punchline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp"
+        android:text="Answer: " />
+
+    <Button
+        android:id="@+id/btn_get_random_joke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Random Joke"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
